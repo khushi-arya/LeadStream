@@ -1,0 +1,27 @@
+step 1 :- goto ->https://developers.facebook.com/apps/1897907304524970/settings/basic/?business_id=2003549390344348 
+-> genrate app secret by clicking confirm on app show password -> genrate tha code 
+
+step 2 :- https://graph.facebook.com/v26.0/oauth/access_token?grant_type=fb_exchange_token&client_id=1897907304524970&client_secret=32_CHAR_SECRET&fb_exchange_token=FRESH_SHORT_TOKEN
+
+{FRESH_SHORT_TOKEN :- 
+ https://developers.facebook.com/tools/explorer/?method=GET&path=me%2Faccounts&version=v26.0 ---- yha jake 
+ meta app - apka app 
+ User or Page - user token 
+
+ click button 
+}
+
+build the above url than browse it .
+
+{
+  "access_token": "EAAaZBIvqz7KoBSjcZAYNre5MF1N9XCbPXDeKUexq8w040gXlJ8KRSCtsiKjuXuj7clArzKTyZCfmSRINKBZACRGKZC8F46NCX7hhjugT1diN5Cq3nXuctYFBFi0KwLaWiCW0VfNbpFPkR1CvFySTdsecXvOUKumwYy4fREOOud2ZBGmDuXgqS2XDqhIkd8",
+  "token_type": "bearer",
+  "expires_in": 5103706
+}
+
+ye jo access_token hai use 
+https://developers.facebook.com/tools/explorer/?method=GET&path=me%2Faccounts&version=v26.0  -------- yhha is page ke jo genrated token hai usme paste kardo .phir 
+get / me/accounts  -> click submit button 
+
+vo token page assecc token hai  
+
