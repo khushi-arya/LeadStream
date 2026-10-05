@@ -205,14 +205,4 @@ When connected, the header shows **● Live** (green). Create a test lead in Met
 
 ---
 
-## Security notes
 
-- **Never commit `.env`** – add it to `.gitignore`.
-- If a token was ever pushed to Git, revoke it in Meta and generate a new one.
-- Lead data contains personal information (names, emails, phone numbers) – handle it according to applicable privacy laws.
-
----
-
-## License
-
-MIT (or your preferred license) 
